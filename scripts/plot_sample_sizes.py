@@ -24,8 +24,8 @@ def plot_growth_against_multiple_k(data_filename, output_filename):
     #k_values = [200, 400, 800]
     k_values = [70, 80, 90, 100]
     k_values = [70, 80, 90, 100]
-    colors = ['#a6cee3','#b2df8a', '#1f78b4', '#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#ab93b7']
-    markers = ['D', '<', 'o', '>', '^', 'v', '*', 'P', 'X']
+    colors = sns.color_palette("bright")
+    markers = ['D', '<', 'o', '>', '^', 'v', 'D', 'P', 'X']
     colors = colors[0:4]
     markers = markers[0:4]
 

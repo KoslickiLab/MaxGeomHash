@@ -99,9 +99,15 @@ python scripts/expt_fixed_similarity_vary_set_size_MH.py --t 0.5 --metric jaccar
 # uses cpp implementation 
 expt_growth --t 0.5 --metric jaccard --seeds 50 --steps 10 --growth x2 --out results/fixed_jaccard_expt_amgh_t0.5_a0.45 --algo alphamaxgeom --alpha 0.45 --base_n 100000
 expt_growth --t 0.5 --metric jaccard --seeds 50 --steps 10 --growth x2 --out results/fixed_jaccard_expt_mh_t0.5_k1000 --algo bottomk --k 1000 --base_n 100000
-expt_growth --t 0.5 --metric jaccard --seeds 50 --steps 10 --growth x2 --out results/fixed_jaccard_expt_mgh_t0.5_k100 --algo maxgeom --k 100 --base_n 100000
-expt_growth --t 0.5 --metric jaccard --seeds 50 --steps 10 --growth x2 --out results/fixed_jaccard_expt_mgh_t0.5_k80 --algo maxgeom --k 80 --base_n 100000
+expt_growth --t 0.5 --metric jaccard --seeds 50 --steps 10 --growth x2 --out results/fixed_jaccard_expt_mgh_t0.5_k90 --algo maxgeom --k 90 --base_n 100000
 expt_growth --t 0.5 --metric jaccard --seeds 50 --steps 10 --growth x2 --out results/fixed_jaccard_expt_fmh_t0.5_s0.001 --algo fracminhash --scale 0.001 --base_n 100000
+
+
+# use 500 trials
+expt_growth --t 0.5 --metric jaccard --seeds 500 --steps 10 --growth x2 --out results/fixed_jaccard_expt_amgh_t0.5_a0.45 --algo alphamaxgeom --alpha 0.45 --base_n 100000
+expt_growth --t 0.5 --metric jaccard --seeds 500 --steps 10 --growth x2 --out results/fixed_jaccard_expt_mh_t0.5_k1000 --algo bottomk --k 1000 --base_n 100000
+expt_growth --t 0.5 --metric jaccard --seeds 500 --steps 10 --growth x2 --out results/fixed_jaccard_expt_mgh_t0.5_k90 --algo maxgeom --k 90 --base_n 100000
+expt_growth --t 0.5 --metric jaccard --seeds 500 --steps 10 --growth x2 --out results/fixed_jaccard_expt_fmh_t0.5_s0.001 --algo fracminhash --scale 0.001 --base_n 100000
 
 
 #################################################

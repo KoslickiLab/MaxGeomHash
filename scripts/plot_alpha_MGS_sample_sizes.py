@@ -38,8 +38,8 @@ def plot_growth_against_multiple_alpha(data_filename, output_filename):
 
     #alpha_values = [0.3, 0.4, 0.5]
     alpha_values = [0.4, 0.45, 0.5]
-    colors = ['#a6cee3','#b2df8a', '#1f78b4', '#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#ab93b7']
-    markers = ['D', '<', 'o', '>', '^', 'v', '*', 'P', 'X']
+    colors = sns.color_palette("bright")
+    markers = ['D', '<', 'o', '>', '^', 'v', 'D', 'P', 'X']
     colors = colors[4:7]
     markers = markers[4:7]
 
@@ -87,8 +87,8 @@ def plot_growth_against_multiple_alpha_stddev(data_filename, output_filename):
     #alpha_values = [0.3, 0.4, 0.5]
     alpha_values = [0.4, 0.45, 0.5]
     k_values = [70, 80, 90, 100]
-    colors = ['#a6cee3','#b2df8a', '#1f78b4', '#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#ab93b7']
-    markers = ['D', '<', 'o', '>', '^', 'v', '*', 'P', 'X']
+    colors = sns.color_palette("bright")
+    markers = ['D', '<', 'o', '>', '^', 'v', 'D', 'P', 'X']
     colors = colors[4:7]
     markers = markers[4:7]
 
