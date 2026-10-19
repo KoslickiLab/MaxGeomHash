@@ -72,7 +72,7 @@ if __name__ == "__main__":
     sample3.add_many_items(data3)
     sample4 = MaxGeomSample(k=100, w=64, seed=42)
     sample4.add_many_items(data4)
-    union_sample = sample3.merge_untested(sample4)
+    union_sample = sample3.union(sample4)
     combined_data = data3 + data4
     combined_sample = MaxGeomSample(k=100, w=64, seed=42)
     combined_sample.add_many_items(combined_data)

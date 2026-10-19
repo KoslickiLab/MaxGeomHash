@@ -1,4 +1,7 @@
 #export PATH=/scratch/mbr5797/kmer-sketch/bin:$PATH
+# need to export PATH properly for the kmer-sketch program
+
+export PYTHONPATH=`pwd`:$PYTHONPATH
 
 # basic implementation test
 python scripts/expt_basic_implementation.py
